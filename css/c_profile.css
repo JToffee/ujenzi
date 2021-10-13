@@ -1,0 +1,90 @@
+#c_brand{
+	position: absolute;
+	top: 20vw;
+	height: 30vw;
+	width: 80vw;
+	overflow: hidden;
+	left: 5vw;
+	padding-bottom: 1vw;
+}
+#c_brand #logo{
+	float: left;
+	margin-left: 13vw;
+}
+#c_brand #logo img{
+	width: 12vw;
+	height: 12vw;
+	border-radius: 7.5vw;
+}
+#c_brand #logo p{
+	margin-left: 5vw;
+	margin-top: 2vw;
+	font-size: 1.2em;
+}
+#c_brand #name{
+	float: left;
+	margin-left: 8vw;
+	margin-top: 3vw;
+	}
+#c_brand #name p{
+	font-size: 2.2em;
+	font-family: sans-serif;
+}
+#photos{
+	position: absolute;
+	top:47.5vw;
+	left: 8vw;
+	height: 40vw;
+	width: 100vw;
+	overflow: hidden;
+}
+#photos h1{
+	margin-bottom: 5vw;
+}
+#photos .thumbnail img{
+	width: 85vw;
+}
+#c_contacts{
+	position: absolute;
+	top: 95vw;
+	height: 30vw;
+	width: 100vw;
+	overflow: hidden;
+	left: 8vw;
+}
+#c_contacts h1{
+	margin-bottom: 5vw;
+}
+#c_contacts   {
+
+}
+#c_contacts{
+
+}
+#services{
+	position: absolute;
+	top: 130vw;
+	height: 20vw;
+	width: 100vw;
+	overflow: hidden;
+}
+
+#current_projects{
+	position: absolute;
+	top: 160vw;
+	height: 30vw;
+	width: 100vw;
+	overflow: hidden;
+}
+#complete_projects{
+	position: absolute;
+	top: 150vw;
+	height: 30vw;
+	width: 100vw;
+	overflow: hidden;
+}
+footer{
+	position: absolute;
+	width: 100vw;
+	top: 180vw;
+}

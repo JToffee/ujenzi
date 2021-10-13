@@ -1,0 +1,21 @@
+#profile{
+	position: absolute;
+	top: 25vw;
+	left: 15vw;
+
+}
+#profile img{
+	width: 20vw;
+	height: 20vw;
+	border-radius: 10vw;
+	float: left;
+}
+#profile table{
+	float: left;
+	margin-left: 7vw;
+	margin-top: 6vw;
+}
+footer{
+	position: absolute;
+	top: 55vw;
+}

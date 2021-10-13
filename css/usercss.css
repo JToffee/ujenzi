@@ -1,0 +1,36 @@
+#userback{
+	position: absolute;
+	top: 15vw;
+	background: url("../images/banner.jpg");
+	width: 100vw;
+	height: 50vw;
+	background-size: 50;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+#option1{
+	position: absolute;
+	top: 20vw;
+	left: 20vw;
+	width: 20vw;
+	height: 20vw;
+}
+#option2{
+	position: absolute;
+	top: 20vw;
+	left: 42vw;
+	width: 20vw;
+	height: 20vw;
+}
+#option3{
+	position: absolute;
+	top: 20vw;
+	left: 66vw;
+	width: 20vw;
+	height: 20vw;
+}
+footer{
+	position: absolute;
+	top: 65vw;
+}

@@ -1,0 +1,374 @@
+#p_home{
+	width: 100vw;
+	position: absolute;
+	top: 22vw;
+
+}
+.col_1{
+	width: 26vw;
+	height: 85vw;
+	float: left;
+	overflow: hidden;
+	border-right: 1PX solid #808000;
+}
+.col_1 img{
+	margin-top: 3vw;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 7.5vw;
+	margin-left: 4vw;
+}
+.col_1 p{
+	margin-top: 1vw;
+	margin-left: 5vw;
+	color: #0C090A;
+	font-weight: 1px;
+	font-family: verdana;
+	font-size: 0.9em;
+}
+.col_1 nav{
+	margin: 3vw;
+	margin-left: 1vw;
+	height: 40vw;
+	margin-top: 5vw;
+}
+
+.col_1 nav li{
+	list-style-type: none;
+	display: block;
+	width: 15vw;
+	height: 2.3vw;
+	padding: 1vw;
+	margin-bottom: 1vw;
+	border: none;
+	background: #6E6E6D;
+}
+.col_1 nav a{
+	text-decoration: none;
+	color: #fff;
+	padding-left: 1vw;
+	padding: 1vw;
+
+}
+.col_1 nav a:hover {
+    color: #F87217;
+    background: #3D3D3D;
+}
+
+.col_1 nav a:active{
+    color: #F87217;
+    border: none;
+}
+
+.col_2{
+	width: 67vw;
+	height: 70vw;
+	float: left;
+	margin-left: 5vw;
+
+}
+.title{
+	margin-left: 2vw;
+	text-align: left;
+	color: #f87817;
+	font-family: Verdana;
+	font-size: 2.2em;
+	font-weight: 2px;
+	margin-right: 5vw;
+	float: left;
+
+}
+
+#projects input{
+	width: 23vw;
+	height: 2.8vw;
+	border-radius: 2vw;
+	margin-left: 2vw;
+	text-indent: 10%;
+	float: left;
+}
+#projects{
+	margin-top: 5vw;
+	margin-left: 2vw;
+	height: 80vw;
+	overflow: hidden;
+
+}
+.row .project{
+	width: 25vw;
+	height: 35vw;
+	overflow: hidden;
+	float: left;
+	padding: 0.3vw;
+	margin-right: 6vw;
+	font-size: 0.8em;
+	opacity: 0.9;
+	margin-top: 1vw;
+}
+
+
+.project img{
+	width: 25vw;
+	height: 15vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+}
+.project span{
+	font-weight: bold;
+}
+.project #p_title{
+	font-weight: 3px;
+	font-size: 1.5em;
+	color: #848482;
+}
+.row{
+	margin-top: 5vw;
+	height: 20vw;
+}
+.row button{
+	background-color: #808000;
+	color: #fff ;
+	width: 12.5vw;
+	border-radius: 4px;
+	height: 3vw;
+	font-family: verdana;
+	margin-top:0.5vw;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+/*
+#jobs{
+
+	height: 70vw;
+	margin-top: 5vw;
+	margin-left: 2vw;
+	overflow: scroll;
+	width: 67vw;
+
+
+}
+#jobs input{
+	width: 30vw;
+	height: 2.8vw;
+	border-radius: 2vw;
+	text-indent: 10%;
+	float: left;
+}
+
+#jobs .row{
+	margin-top: 1vw;
+	height: 25vw;
+}
+.row .job{
+	width: 31vw;
+	height: 30vw;
+	border-right: 1px solid #000;
+	float: left;
+	padding: 0.1vw;
+	margin-left: 2vw;
+	font-size: 0.8em;
+	opacity: 0.9;
+}
+.job span{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.job input{
+	margin-top: 2vw;
+}
+.job .job_title{
+	font-weight: 3px;
+	font-size: 1.7em;
+	color: #848482;
+}
+*/
+#contractors{
+	position: absolute;
+	top: 128vw;
+	margin-top: 5vw;
+	margin-left: 2vw;
+
+}
+#contractors input{
+	width: 23vw;
+	height: 2.8vw;
+	border-radius: 2vw;
+	margin-left: 2vw;
+	text-indent: 10%;
+	float: left;
+}
+#contractors .row{
+	margin-top: 1vw;
+	height: 25vw;
+}
+.row .contractor{
+	width: 20vw;
+	height: 25vw;
+	overflow: hidden;
+	float: left;
+	padding: 0.1vw;
+	margin-left: 1vw;
+	font-size: 0.8em;
+	opacity: 0.9;
+}
+.contractor img{
+	width: 12vw;
+	height: 12vw;
+	border-radius: 6vw;
+	margin-bottom: 1vw;
+	margin-top: 2vw;
+}
+.contractor .c_name{
+	font-weight: 10px;
+	font-size: 1.5em;
+	font-family: verdana;
+	color: #6D6968;
+	margin-left: 2vw;
+}
+.row .contractor: hover{
+	opacity: 0.7;
+	background-color:#000;
+}
+
+
+
+
+
+#workers{
+	position: absolute;
+	top: 87vw;
+	margin-top: 5vw;
+	margin-left: 2vw;
+
+}
+#workers input{
+	width: 23vw;
+	height: 2.8vw;
+	border-radius: 2vw;
+	margin-left: 5vw;
+	text-indent: 10%;
+	float: left;
+}
+#workers .row{
+	margin-top: 1vw;
+	height: 25vw;
+}
+.row .worker{
+	width: 18vw;
+	height: 25vw;
+	overflow: hidden;
+	float: left;
+	padding: 0.1vw;
+	margin-left: 1vw;
+	opacity: 0.9;
+}
+.worker p{
+	margin-top: 0vw;
+}
+.worker img{
+	width: 12vw;
+	height: 12vw;
+	border-radius: 6vw;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+	margin-left: 1vw;
+}
+.worker .proffesion{
+	font-weight: 10px;
+	font-family: verdana;
+	margin-left: 2vw;
+	font-size: 1.7em;
+	color: #848482;
+}
+.row .worker :hover{
+	opacity: 0.7;
+	background-color:#000;
+}
+
+
+#my_projects{
+	position: absolute;
+	top: 123vw;
+	margin-top: 5vw;
+	margin-left: 2vw;
+	height: 80vw;
+	overflow: hidden;
+
+}
+#my_projects input{
+	width: 23vw;
+	height: 2.8vw;
+	border-radius: 2vw;
+	margin-left: 5vw;
+	text-indent: 10%;
+	float: left;
+}
+#my_projects .row .project{
+	width: 20vw;
+	height: 30vw;
+	overflow: hidden;
+	float: left;
+	padding: 0.3vw;
+	margin-right: 3vw;
+	font-size: 0.8em;
+	opacity: 0.9;
+	margin-top: 1vw;
+}
+.project img{
+	width: 25vw;
+	height: 15vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+}
+.project span{
+	font-weight: bold;
+}
+.project #p_title{
+	font-weight: 3px;
+	font-size: 1.5em;
+	color: #848482;
+
+}
+.row{
+	margin-top: 3vw;
+	height: 20vw;
+}
+.row button{
+	background-color: #808000;
+	color: #fff ;
+	width: 12.5vw;
+	border-radius: 4px;
+	height: 3vw;
+	font-family: verdana;
+	margin-top:0.5vw;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+
+
+
+.col_2 #workers{
+	position: absolute;
+	top: 0vw;
+	margin-top: 5vw;
+	margin-left: 2vw;
+
+}
+#workers input{
+	width: 23vw;
+	height: 2.8vw;
+	border-radius: 2vw;
+	margin-left: 5vw;
+	text-indent: 10%;
+	float: left;
+}
+.col_2 #workers .row{
+	margin-top: 2vw;
+	height: 20vw;
+	margin-left: 0;
+}
+
+footer{
+	top: 195vw;
+}
